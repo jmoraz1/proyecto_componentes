@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.cenfotec.testProject</groupId>
-  <artifactId>testProject</artifactId>
+  <groupId>com.cenfotec.proyecto_componentes</groupId>
+  <artifactId>api_backend</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>testProject Maven Webapp</name>
+  <name>proyecto_componentes_api_backend</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -20,8 +20,14 @@
 	    <version>3.1.0</version>
 	    <scope>provided</scope>
 	</dependency>
+    <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-servlet -->
+    <dependency>
+        <groupId>com.sun.jersey</groupId>
+        <artifactId>jersey-servlet</artifactId>
+        <version>1.19.4</version>
+    </dependency>
   </dependencies>
   <build>
-    <finalName>testProject</finalName>
+    <finalName>api_backend</finalName>
   </build>
 </project>
