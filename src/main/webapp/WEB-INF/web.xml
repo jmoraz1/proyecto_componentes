@@ -3,7 +3,7 @@
 <web-app >
   <display-name>Archetype Created Web Application</display-name>
  <servlet>
-   <servletname>jersery-servlet</servletname>
+   <servletname>jersey-servlet</servletname>
    <servelet-class>com.sun.jersey.api.container.servlet.ServletContainer</servelet-class>
    <load-on-startup>1</load-on-startup>
  </servlet>
