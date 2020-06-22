@@ -6,6 +6,10 @@
         <servlet-name>jersey-servlet</servlet-name>
         <servelet-class>com.sun.jersey.api.container.servlet.ServletContainer</servelet-class>
         <load-on-startup>1</load-on-startup>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>java.api</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>jersey-servlet</servlet-name>
