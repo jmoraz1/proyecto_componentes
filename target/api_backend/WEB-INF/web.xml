@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <web-app >
-  <display-name>Archetype Created Web Application</display-name>
- <servlet>
-   <servletname>jersery-servlet</servletname>
-   <servelet-class>com.sun.jersey.api.container.servlet.ServletContainer</servelet-class>
-   <load-on-startup>1</load-on-startup>
- </servlet>
-  <servlet-mapping>
-    <servlet-name>jersey-servlet</servlet-name>
-    <url-pattern>/api/*</url-pattern>
-  </servlet-mapping>
+    <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>jersey-servlet</servlet-name>
+        <servelet-class>com.sun.jersey.api.container.servlet.ServletContainer</servelet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>jersey-servlet</servlet-name>
+        <url-pattern>/api/*</url-pattern>
+    </servlet-mapping>
 </web-app>
